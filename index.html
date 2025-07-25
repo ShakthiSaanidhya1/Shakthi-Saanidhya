@@ -1,109 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shakthi Saanidhya PG</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Shakthi Saanidhya Executive Women's PG</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #f8f9fa;
+      padding: 0;
+      background: #fefefe;
       color: #333;
     }
     header {
-      background: #f04e30;
-      color: #fff;
-      padding: 2rem;
+      background: #ffcdd2;
+      padding: 20px;
       text-align: center;
     }
     header img {
-      max-height: 80px;
-      margin-bottom: 1rem;
+      height: 60px;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+    h1 {
+      margin: 10px 0 5px;
     }
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
+    .tagline {
+      font-size: 1.2em;
+      color: #555;
     }
     .section {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
+      padding: 20px;
     }
     .gallery img {
-      width: 100%;
+      width: 30%;
+      margin: 1%;
       border-radius: 10px;
-      margin-bottom: 1rem;
     }
-    .amenities, .pricing {
-      display: grid;
-      gap: 1rem;
-    }
-    .amenities li {
-      background: #fff;
-      padding: 1rem;
-      border-radius: 8px;
-      list-style: none;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    .pricing div {
-      background: #fff;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .contact {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    .contact a {
-      background: #25d366;
-      color: #fff;
-      padding: 1rem 2rem;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
+    .contact, .rent, .map, .reviews {
+      margin-top: 20px;
     }
     footer {
       text-align: center;
-      font-size: 0.9rem;
-      padding: 1rem;
-      background: #eee;
+      padding: 20px;
+      background: #f8bbd0;
     }
-    @media(min-width: 768px) {
-      .gallery {
-        display: flex;
-        gap: 1rem;
-      }
-      .amenities, .pricing {
-        grid-template-columns: repeat(3, 1fr);
-      }
+    a.whatsapp {
+      background: #25D366;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo" />
-    <h1>Shakthi Saanidhya PG</h1>
-    <p>Executive PG for Women - Feels Like Home</p>
-  </header>
-
-  <section class="section">
-    <h2>Location</h2>
-    <p>
-      103, 5th Cross, P&T Layout, Near Manyata Tech Park Gate 5,<br />
-      Rachenahalli, Tanisandra, Bangalore 560045
-    </p>
-    <a href="https://share.google/Ko1BH9buOngfxA7ej" target="_blank">View on Google Maps</a>
-  </section>
-
-  <section class="section gallery">
-    <h2>Gallery</h2>
-    <img src="room1.jpg" alt="Room 1" />
-    <img src="room2.jpg" alt="Room 2
+    <img src="logo.png" alt="Shakthi Saanidhya Logo" />
+    <h1>Shakthi Saanidhya Executive Women's PG</h1>
+    <div class="tagline">Feels like home</div>
+  </header>  <div class="section gallery">
+    <h2>Our PG</h2>
+    <img src="room1.jpg" alt="Room 1">
+    <img src="room2.jpg" alt="Room 2">
+    <img src="building.jpg" alt="Building">
+  </div>  <div class="section contact">
+    <h2>Contact Us</h2>
+    <p>📍 103, 5th Cross, P&T Layout, Near Manyata Tech Park Gate 5, Rachenahalli, Tanisandra, Bangalore 560045</p>
+    <p>📞 <a href="tel:+916361344187">6361344187</a></p>
+    <a class="whatsapp" href="https://wa.me/916361344187">Chat on WhatsApp</a>
+    <p>📍 <a href="https://share.google/Ko1BH9buOngfxA7ej" target="_blank">Open in Google Maps</a></p>
+    <p>📸 <a href="https://www.instagram.com/shakthisaanidhya?igsh=MXdrOW5taHBrdHlmYQ==" target="_blank">Follow us on Instagram</a></p>
+  </div>  <div class="section rent">
+    <h2>Monthly Rent</h2>
+    <ul>
+      <li>Triple Sharing: ₹8500</li>
+      <li>Double Sharing: ₹12500</li>
+      <li>Single Room: ₹24000</li>
+    </ul>
+    <p>Includes 3 meals a day, high-speed internet, 24hr power backup, laundry, CCTV, and housekeeping.</p>
+  </div>  <div class="section map">
+    <h2>Find Us on the Map</h2>
+    <iframe src="https://www.google.com/maps?q=103,+5th+Cross,+P%26T+Layout,+Near+Manyata+Tech+Park+Gate+5,+Rachenahalli,+Tanisandra,+Bangalore+560045&output=embed" width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"></iframe>
+  </div>  <div class="section reviews">
+    <h2>What Our Guests Say</h2>
+    <ul>
+      <li>⭐️⭐️⭐️⭐️⭐️ “Very safe and clean PG. Food quality is great!”</li>
+      <li>⭐️⭐️⭐️⭐️⭐️ “Super close to Manyata Tech Park. Highly recommended.”</li>
+      <li>⭐️⭐️⭐️⭐️ “Feels like home indeed. Good WiFi and power backup.”</li>
+    </ul>
+  </div>  <footer>
+    &copy; 2025 Shakthi Saanidhya Executive Women's PG. All rights reserved.
+  </footer>
+</body>
+</html>
